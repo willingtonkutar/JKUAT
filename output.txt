@@ -1,0 +1,26 @@
+JKUAT
+
+
+
+Student Details:
+Name: willy
+Admission No.: 12345
+Course: nnit
+School: jkuat
+
+Scores:
+Unit cv: 23	 Grade: F
+ - Visit the exam's office for supplementary.
+Unit rt: 45	 Grade: D
+Unit fg: 56	 Grade: C
+Unit gh: 34	 Grade: F
+ - Visit the exam's office for supplementary.
+Unit hj: 67	 Grade: B
+Unit yu: 23	 Grade: F
+ - Visit the exam's office for supplementary.
+Unit jy: 98	 Grade: A
+
+Total Scores: 346
+Average Score: 49.43
+Final Grade: D
+Thank you for using the system

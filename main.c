@@ -17,7 +17,7 @@ int main() {
     inputScoresAndCalculateGrades(scores, unit_names, &total_scores, &average);
 
     // Printing student details
-    printf("\n");
+                        printf("JKUAT\n");
     printf("\n");
     printf("\n");
     printf("\n");
