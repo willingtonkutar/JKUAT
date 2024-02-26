@@ -45,4 +45,8 @@ void inputScoresAndCalculateGrades(int scores[], char unit_names[7][50], int *to
 
     // Calculate average
     *average = (float)(*total_scores) / 7.0;
+
+    // Calculate final grade based on average
+    char final_grade = calculateGrade((int)*average);
+    printf("Final Grade is %c\n", final_grade);
 }

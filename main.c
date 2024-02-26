@@ -43,7 +43,7 @@ int main() {
     // Printing total scores, average, and final grade
     printf("\nTotal Scores: %d\n", total_scores);
     printf("Average Score: %.2f\n", average);
-    printf("Final Grade: %c\n", calculateGrade(total_scores));
-
+    printf("Final Grade: %c\n", calculateGrade(average));
+    printf("Thank you for using the system\n");
     return 0;
 }
