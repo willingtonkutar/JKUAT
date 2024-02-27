@@ -1,26 +1,31 @@
-JKUAT
+JOMMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY
 
 
 
 Student Details:
-Name: willy
-Admission No.: 12345
-Course: nnit
-School: jkuat
+Name: Willington
+Admission No.: 345
+Course: BBIT
+School: JKUAT
+Department: ETLM
+Semester: 2
 
 Scores:
-Unit cv: 23	 Grade: F
+Unit Mathematics: 45	 Grade: D
+Unit SCience: 65	 Grade: B
+Unit Pe: 32	 Grade: F
  - Visit the exam's office for supplementary.
-Unit rt: 45	 Grade: D
-Unit fg: 56	 Grade: C
-Unit gh: 34	 Grade: F
+Unit Biology: 0	 Grade: F
  - Visit the exam's office for supplementary.
-Unit hj: 67	 Grade: B
-Unit yu: 23	 Grade: F
+Unit chemistry: 78	 Grade: A
+Unit History: 42	 Grade: D
+Unit Jsc: 0	 Grade: F
  - Visit the exam's office for supplementary.
-Unit jy: 98	 Grade: A
 
-Total Scores: 346
-Average Score: 49.43
-Final Grade: D
+Highest Score: 78 in unit chemistry
+Lowest Score: 0 in unit Biology
+
+Total Scores: 262
+Average Score: 37.43
+Final Grade: F
 Thank you for using the system

@@ -11,4 +11,8 @@ void captureStudentDetails(struct Student *new_student) {
     scanf("%s", new_student->course);
     printf("Enter school name: ");
     scanf("%s", new_student->school_name);
+    printf("Enter department: ");
+    scanf("%s", new_student->department);
+    printf("Enter semester: ");
+    scanf("%s", new_student->semester);
 }

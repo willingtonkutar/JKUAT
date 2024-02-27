@@ -7,6 +7,8 @@ struct Student {
     int admission_no;
     char course[50];
     char school_name[50];
+    char department[50];
+    char semester[50];
 };
 
 // Declare student-related functions
