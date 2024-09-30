@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <fstream>
 
 struct Unit {
     std::string name;
@@ -29,6 +30,9 @@ public:
 
     void addUnit(const std::string& unitName, double score);
     void displayReport() const;
+
+    void saveToFile(std::ofstream& outFile) const;
+    void loadFromFile(std::ifstream& inFile);
 };
 
 #endif // STUDENT_H

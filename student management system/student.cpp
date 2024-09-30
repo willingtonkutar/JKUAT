@@ -69,3 +69,33 @@ void Student::displayReport() const {
     std::cout << "Final Grade: " << finalGrade << "\n";
     std::cout << "Thank you for using the system\n";
 }
+
+void Student::saveToFile(std::ofstream& outFile) const {
+    outFile << name << "\n" << studentID << "\n" << course << "\n" << school << "\n" << department << "\n" << semester << "\n";
+    outFile << units.size() << "\n";
+    for (const auto& unit : units) {
+        outFile << unit.name << "\n" << unit.score << "\n" << unit.grade << "\n" << unit.supplementary << "\n";
+    }
+}
+
+void Student::loadFromFile(std::ifstream& inFile) {
+    std::getline(inFile, name);
+    std::getline(inFile, studentID);
+    std::getline(inFile, course);
+    std::getline(inFile, school);
+    std::getline(inFile, department);
+    inFile >> semester;
+    size_t unitCount;
+    inFile >> unitCount;
+    inFile.ignore(); // Ignore the newline character after the unit count
+    units.clear();
+    for (size_t i = 0; i < unitCount; ++i) {
+        Unit unit;
+        std::getline(inFile, unit.name);
+        inFile >> unit.score;
+        inFile >> unit.grade;
+        inFile >> unit.supplementary;
+        inFile.ignore(); // Ignore the newline character after supplementary
+        units.push_back(unit);
+    }
+}

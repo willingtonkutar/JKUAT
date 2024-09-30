@@ -6,7 +6,9 @@ This Student Grade Calculation program is designed to help a university calculat
 
 1. **Add Student**: Allows the user to add a new student with their details and unit scores.
 2. **Display All Students**: Displays a detailed report for each student, including their scores, grades, highest and lowest scores, total scores, average score, and final grade.
-3. **Exit**: Exits the program.
+3. **Save Students to File**: Saves the current list of students to a file.
+4. **Load Students from File**: Loads a list of students from a file.
+5. **Exit**: Exits the program.
 
 ## File Structure
 
@@ -42,6 +44,8 @@ The `Student` class represents a student in the course. It has the following dat
   - `Student(const std::string& name, const std::string& studentID, const std::string& course, const std::string& school, const std::string& department, int semester)`: Constructor to initialize a student.
   - `void addUnit(const std::string& unitName, double score)`: Adds a unit and its score to the student's record.
   - `void displayReport() const`: Displays a detailed report of the student's scores, grades, and other details.
+  - `void saveToFile(std::ofstream& outFile) const`: Saves the student's data to a file.
+  - `void loadFromFile(std::ifstream& inFile)`: Loads the student's data from a file.
 
 ## Usage
 
