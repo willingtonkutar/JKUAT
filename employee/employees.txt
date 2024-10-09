@@ -1,0 +1,2 @@
+1 kutar clerk hourly 205 25
+2 kutar manager monthly 0 0
