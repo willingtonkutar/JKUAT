@@ -1,0 +1,5 @@
+New user registered: willy
+User willy logged in.
+Exited the application.
+User willy logged in.
+Exited the application.
