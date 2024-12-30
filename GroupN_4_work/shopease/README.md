@@ -22,7 +22,7 @@ This is a simple E-Commerce System implemented in C++. The system allows admins 
    cd build
 Run cmake to generate the build files:
 make
-Build the projec
+Build the project
 make
 How to Run
 After building the project, you can run the executable:

@@ -1,0 +1,3 @@
+/home/willy/JKUAT/GroupN_4_work/shopease/build/CMakeFiles/rebuild_cache.dir
+/home/willy/JKUAT/GroupN_4_work/shopease/build/CMakeFiles/edit_cache.dir
+/home/willy/JKUAT/GroupN_4_work/shopease/build/CMakeFiles/shopease.dir

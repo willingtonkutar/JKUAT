@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/shopease.dir/src/main.cpp.o CMakeFiles/shopease.dir/src/admin.cpp.o CMakeFiles/shopease.dir/src/customer.cpp.o CMakeFiles/shopease.dir/src/product.cpp.o CMakeFiles/shopease.dir/src/order.cpp.o CMakeFiles/shopease.dir/src/user.cpp.o  -o shopease 

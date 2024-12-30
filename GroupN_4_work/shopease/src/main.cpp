@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm> // Add this line to include the algorithm header
 #include "include/admin.h"
 #include "include/customer.h"
 #include "include/product.h"
@@ -14,7 +15,7 @@ int main() {
     vector<Order> orders;
     vector<Admin> admins;
 
-    cout << "Welcome to the E-Commerce System!\n";
+    cout << "Welcome to the Shopease System!\n";
     cout << "Please register the first admin to proceed." << endl;
     string adminName, adminUserID, adminPassword;
 
