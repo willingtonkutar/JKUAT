@@ -13,7 +13,8 @@ This is a simple E-Commerce System implemented in C++. The system allows admins 
 - `order.h` and `order.cpp`: Contains the `Order` class which represents an order placed by a customer.
 - `user.h` and `user.cpp`: Contains the `User` base class which is inherited by `Admin` and `Customer` classes.
 
-## How to Build
+## How to Build 
+**first way...**
 
 1. Make sure you have `cmake` and a C++ compiler installed.
 2. Create a build directory and navigate into it:
@@ -28,6 +29,18 @@ How to Run
 After building the project, you can run the executable:
 ./shopease
 
+**second way..**
+Building the Project with g++
+You can also compile the project using the latest g++ compiler:
+
+1.Navigate to the project directory:
+cd /home/willy/JKUAT/GroupN_4_work/shopease
+
+2.Compile the project using g++:
+g++ -o shopease src/main.cpp src/admin.cpp src/customer.cpp src/product.cpp src/order.cpp src/user.cpp -I src/include
+3.Run the executable:
+./shopease
+
 **Features**
 Admin Login: Admins can log in using their user ID and password.
 Product Management: Admins can add, remove, and view products.
@@ -37,3 +50,5 @@ Customer Menu: Customers can view products, add products to their order, view th
 Add more functionalities for admins and customers.
 Improve the user interface.
 Add a database to store data persistently.
+
+
